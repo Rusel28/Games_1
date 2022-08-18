@@ -8,8 +8,9 @@ class Piece {
         for (let i = 0; i < ROWS; i++) {
             for (let j = 0; j < COLS; j++) {
                 this.ctx.beginPath();
-                this.ctx.fillStyle =COLORS[mas[i][j]]
-                this.ctx.fillRect(j * (BLOCK_SIZE), i * (BLOCK_SIZE), BLOCK_SIZE, BLOCK_SIZE)
+                this.ctx.fillStyle =COLORS[mas[i][j]];
+                this.ctx.arc((j * CELL_SIZE)+25, (i * CELL_SIZE)+25, RADIUS, 0, Math.PI*2);
+                ctx.fill();
             }
         }
     }

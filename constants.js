@@ -1,10 +1,11 @@
 
 const COLS = 5;
 const ROWS = 8;
-const BLOCK_SIZE  = 50;
+const CELL_SIZE  = 50;
+const RADIUS = 25;
 const COLORS = [
     'blue',
-    'orange',
+    'purple',
     'yellow',
     'green',
     'red'

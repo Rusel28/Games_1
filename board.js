@@ -1,6 +1,5 @@
 class Board {
     constructor() {
-        this.piece = null;
     }
 
     // Сбрасывает игровое поле перед началом новой игры
