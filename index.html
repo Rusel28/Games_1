@@ -4,31 +4,29 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <title>Game</title>
+        <title>Games</title>
+        <link rel="stylesheet" href="./index.css">
+
     </head>
-    <body class="body">
-      
+    <body>
         <section>
             <div class="container">
                 <div class="wrapper">
                     <div class="wrapper__board">
                         <canvas class="board" id="board"></canvas>
-                        <button onclick="play()" class="play-button">Play</button>
+                        <button id="play" class="play-button">Play</button>
                     </div>
-
                     <div class="wrapper__counter">
                         <span>Очки:</span>
                         <span id="counter"></span>
                     </div>
+
                 </div>
             </div>
         </section>
 
-        <script type="text/javascript" src="constants.js"></script>
-        <script type="text/javascript" src="board.js"></script>
-        <script type="text/javascript" src="piece.js"></script>
-        <script type="text/javascript" src="main.js"></script>
 
+
+        <script type="module" src="./index.js"></script>
     </body>
 </html>
